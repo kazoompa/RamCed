@@ -1,0 +1,4 @@
+library(opencpu)
+
+ocpu_start_server(port = 5656)
+
