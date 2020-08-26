@@ -13,6 +13,6 @@
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
 
-hello <- function() {
-  "Hello, world!"
+hello <- function(name) {
+  sprintf("Hello, %s!", name);
 }
